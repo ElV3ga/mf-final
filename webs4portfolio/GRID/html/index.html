@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f3371b1af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-card">
+                  <div class="content">
+                    <div class="logo">
+                        <h2 class="logo-text"><a href="#">GR<span>I D</span></a></h2>
+                    </div>
+                  </div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="./../html/index.html">Home</a></li>
+                    <li><a href="./../html/about.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="./../html/contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-text">
+            <h1><span>IT</span> Made Easy</h1>
+            <p>Focused on cutting edge technology to help bring you the best service possible! <br>Stay connect to the <span>GRID</span>. </p>
+            <button><a class="hero-btn" href="#">GET STARTED</a></button>
+        </div>
+    </header>
+
+    <section class="first-section">
+        <h1>Our Team</h1>
+        <div class="container">
+            <div class="card mem1">
+              <img class="home-card-img" alt="Profile Picture" src="./../Graphics/Images/mem1-profilepicture.png">
+                <div class="content">
+                    <h2 class="etitle">Member One</h2>
+                    <h3 class="etitle Subtitle">Chief technology officer</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                </div>
+            </div>
+            <div class="card mem2">
+                <img class="home-card-img" alt="Profile Picture" src="./../Graphics/Images/lv-profilepicture.png">
+                  <div class="content">
+                    <h2 class="etitle">Luis Vega</h2>
+                    <h3 class="etitle Subtitle">IT Consultant</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="./../html/about.html">Read More</a></button>
+                  </div>
+            </div>
+            <div class="card mem3">
+                <img class="home-card-img" alt="Profile Picture" src="./../Graphics/Images/mem3-profilepicture.png">
+                  <div class="content">
+                    <h2 class="etitle">Member Two</h2>
+                    <h3 class="etitle Subtitle">Database analyst</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="second-section">
+        <img alt="Portrait of First Last" src="./../Graphics/Images/pexels-katerina-holmes-5905895.jpg" class="img-ref">
+        <div class="reference">
+            <h1>First Last</h1>
+            <h2>Co-Owner, Boogle inc.</h2>
+            <p> Thes are very nice words. Highly recommend. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eveniet corporis fugiat praesentium inventore, ex iste quod saepe libero obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus cumque nesciunt adipisci minima officiis aperiam esse laborum, earum, sint eligendi a, ad quidem accusamus nostrum deserunt similique nemo quos hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio deleniti quidem voluptate sunt repellat, reprehenderit delectus autem unde odit aperiam, dignissimos saepe consequuntur vero repellendus in architecto fuga placeat. Necessitatibus cumque nesciunt adipisci minima officiis aperiam esse laborum, earum, sint eligendi a, ad quidem accusamus nostrum deserunt similique nemo quos hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio deleniti quidem voluptate sunt repellat, reprehenderit delectus autem unde odit aperiam, dignissimos saepe consequuntur vero repellendus in architecto fuga placeat. 10/10 </p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+                <ul class="footer-nav">
+                    <li><a href="./../html/index.html">Home</a></li>
+                    <li><a href="./../html/about.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="./../html/contact-us.html">Contact Us</a></li>
+                </ul>
+                <div class="socials">
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <p class="copyright-section">GRID LLC. © 2022</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./../JS/vanilla-tilt.js"></script>
+  <script>
+      VanillaTilt.init(document.querySelectorAll(".card, .nav-card"), {
+		max: 15,
+        perspective: 1000,
+		speed: 400,
+        scale: 1.1,
+        glare: true,
+        "max-glare": .5,
+	});
+  </script>
+</body>
+</html>
